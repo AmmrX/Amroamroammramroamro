@@ -29,6 +29,10 @@ client.user.setGame(`Nothing`,"http://twitch.tv/S-F")
 });
 
 
+client.on('ready', () => {
+     client.user.setActivity("!!help",{type: 'WATCHING'})
+
+});
 
 
 
